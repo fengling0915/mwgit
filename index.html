@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>申请</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+       body {
+            display: flex;
+            flex-direction: column; /* 使按钮垂直排列 */
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            font-family: 'Roboto', sans-serif; /* 使用Google字体 */
+        }
+        .button {
+            display: flex;
+            flex-direction: column; /* 图标和文字垂直排列 */
+            align-items: center;
+            margin: 10px;
+            padding: 10px;
+            border: none;
+            background-color: #fff;
+            cursor: pointer;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            text-decoration: none; /* 去掉下划线 */
+            color: #75b8ff; /* 超链接颜色 */
+            transition: color 0.3s; /* 添加过渡效果 */
+        }
+        .button:hover {
+            color: #3491f4; /* 悬停时的颜色 */
+        }
+        .button img {
+            width: 40px; /* 根据需要调整图标大小 */
+            height: 40px; /* 根据需要调整图标大小 */
+            margin-bottom: 8px; /* 图标和文字之间的间距 */
+        }
+        .footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: #fff;
+            text-align: center;
+            padding: 10px;
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <h2>使用前准备</h2>
+    <button class="button">
+        <img src="https://gdm-catalog-fmapi-prod.imgix.net/ProductLogo/615f8d24-e754-4523-9466-ad180c01e728.png?ixlib=react-9.0.3&ch=Width%2CDPR&auto=format&w=1074" alt="按钮1图标">
+        <a href="https://gitlab.com/">创建Gitlab账户</a>
+    </button>
+    
+    <H2>申请资格</H2>
+    <button class="button">
+        <img src="https://img.36dianping.com/20221012/v2_9d91d6aadaa14354b8263c0dda36492e_img_png" alt="按钮2图标">
+        <a href="https://www.wenjuan.com/s/UZBZJvHYun/">点我申请</a>
+    </button>
+</body>
+<div class="footer">
+    <p>本网站独立于Zhwpwiki，由<a href="https://zhwpwiki.miraheze.org/wiki/User:%E9%A3%8E%E9%93%83">Chime</a>开发并维护<br>使用Github Pages部署</p>
+</div>
+</html>
+
